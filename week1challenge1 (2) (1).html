@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learn HTML5 with examples">
+    <meta name="author" content="Instructor Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+</head>
+<body>
+    <header>
+        <h1><em>List of Hobbies and Movies</em></h1>
+    </header>
+    <main>
+        <section>
+            <h2>Hobbies List</h2>
+            <ul>
+                <li>Skating</li>
+                <li>Dancing</li>
+            </ul>
+            <ol>
+                <li>Pencil Art</li>
+                <li>Cooking</li>
+            </ol>
+            <h2>Movies List</h2>
+            <dl>
+                <dt>Alice in Borderland</dt>
+                <dd>A thrilling series where selected players participate in games based on a deck of cards.</dd>
+                <dt>Awe</dt>
+                <dd>A psychological drama revolving around a woman with multiple personality disorder.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Feedback Form</h2>
+            <form>
+                <label for="review">Feedback: </label>
+                <input type="text" id="review" name="review" required><br>
+                <label for="rating">Rating: </label>
+                <input type="number" id="rating" name="rating" min="1" max="5" required><br> 
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <nav>
+        <h2>Videos and Images</h2>
+        <iframe 
+            width="300" 
+            height="250" 
+            src="https://www.youtube.com/embed/N0fzKDKMP34" 
+            title="Pencil art video" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        <br>
+        <img src="./dance (1).jpg" alt="Dancing Cartoon" width="300" height="200">
+    </nav>
+    <footer>
+        &copy; 2025 Hobbies027
+    </footer>
+</body>
+</html>
